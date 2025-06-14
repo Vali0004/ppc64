@@ -14,7 +14,7 @@
     system.build.installBootLoader = pkgs.replaceVarsWith {
       inherit (pkgs) runtimeShell;
 
-      src = ./kboot/update-kboot.sh;
+      src = ./update-kboot.sh;
       name = "update-kboot.sh";
       isExecutable = true;
 
